@@ -9,7 +9,7 @@ redirect_from:
 
 Welcome to my personal website!
 
-Test
+Introduction
 ======
 Hello, my name is Chengyan Ji, I go by Kurt. I chose this name in highschool because I thought [Kurt Cobain](https://en.wikipedia.org/wiki/Kurt_Cobain) was pretty cool. I am originally from Xi'an, China. I am an incoming PhD student in statistical science at George Mason University. I obtained my Bachelor's in the University of Washington, and Master's from University of Illinois and University of Virginia.
 
