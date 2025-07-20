@@ -1,6 +1,6 @@
 ---
 title: "American White Pelican"
-excerpt: "An Male American White Pelican Landing on Water <br/><img src='../images/DSC_2877.JPG'>"
+excerpt: "A Male American White Pelican Landing on Water <br/><img src='../images/DSC_2877.JPG'>"
 collection: portfolio
 layout: portfolio
 ---

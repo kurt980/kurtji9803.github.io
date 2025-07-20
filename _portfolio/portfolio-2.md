@@ -1,5 +1,5 @@
 ---
-title: "A White-tailed Deed"
+title: "A White-tailed Deer"
 excerpt: "Hope it stays off the highway <br/><img src='../images/DSC_1178.JPG'>"
 collection: portfolio
 layout: portfolio
