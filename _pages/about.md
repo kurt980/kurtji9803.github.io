@@ -9,13 +9,13 @@ redirect_from:
 
 Welcome to my personal website!
 
-Introduction
+About Me
 ======
 Hello, my name is Chengyan Ji, I go by Kurt. I chose this name in highschool because I thought [Kurt Cobain](https://en.wikipedia.org/wiki/Kurt_Cobain) was pretty cool. I am originally from Xi'an, China. I am an incoming PhD student in statistical science at George Mason University. I obtained my Bachelor's in the University of Washington, and Master's from University of Illinois and University of Virginia.
 
 In my spare time, I like to play table tennis🏓, basketball🏀 or badminton🏸. I also like hiking🥾⛰️ and wildlife photography📸🦊. This is my favorite animal [Asiatic Cheetah](https://en.wikipedia.org/wiki/Asiatic_cheetah). I hope to see one some day!
 
-You can go to my Gallery page to see my photos! [Test](../images/profile.png)
+You can go to my Gallery page to see my photos! [Test](../profile.png)
 
 <!-- Getting started
 ======
