@@ -1,6 +1,6 @@
 ---
 title: "Something"
-excerpt: "Something 1<br/><img src='../images/DSC_1178.JPG'>"
+excerpt: "Something <br/><img src='../images/DSC_1178.JPG'>"
 collection: portfolio
 layout: portfolio
 ---

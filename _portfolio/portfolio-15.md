@@ -1,6 +1,6 @@
 ---
-title: "Pronghorns"
-excerpt: "Pronghorns in Wyoming 1<br/><img src='../images/DSC_5259.JPG'>"
+title: "Rockchuck, A Polished Version of Woodchuck"
+excerpt: "Yellow-bellied Marmots are Unique to Western American Ranges <br/><img src='../images/DSC_5259.JPG'>"
 collection: portfolio
 layout: portfolio
 ---

@@ -1,6 +1,6 @@
 ---
-title: "Pronghorns"
-excerpt: "Pronghorns in Wyoming 1<br/><img src='../images/DSC_5203.JPG'>"
+title: "A Lazy Moose"
+excerpt: "Moose Looking at Me Angrily <br/><img src='../images/DSC_5203.JPG'>"
 collection: portfolio
 layout: portfolio
 ---

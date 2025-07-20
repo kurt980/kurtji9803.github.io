@@ -1,6 +1,6 @@
 ---
-title: "Pronghorns"
-excerpt: "Pronghorns in Wyoming 1<br/><img src='../images/DSC_3857.JPG'>"
+title: "Bison Cow and Calf"
+excerpt: "Bisons in Utah <br/><img src='../images/DSC_3857.JPG'>"
 collection: portfolio
 layout: portfolio
 ---

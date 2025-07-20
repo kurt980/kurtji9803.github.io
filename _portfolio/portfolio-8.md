@@ -1,6 +1,6 @@
 ---
-title: "Something"
-excerpt: "Something 1<br/><img src='../images/DSC_2877.JPG'>"
+title: "American White Pelican"
+excerpt: "An Male American White Pelican Landing on Water <br/><img src='../images/DSC_2877.JPG'>"
 collection: portfolio
 layout: portfolio
 ---

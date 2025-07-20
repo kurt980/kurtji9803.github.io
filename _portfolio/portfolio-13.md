@@ -1,6 +1,6 @@
 ---
-title: "Pronghorns"
-excerpt: "Pronghorns in Wyoming 1<br/><img src='../images/DSC_3971.JPG'>"
+title: "Another Stupid Bird"
+excerpt: "Yellow-headed Blackbird <br/><img src='../images/DSC_3971.JPG'>"
 collection: portfolio
 layout: portfolio
 ---

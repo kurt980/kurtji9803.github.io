@@ -1,6 +1,6 @@
 ---
 title: "Herons in Nest"
-excerpt: "A pair of Great Blue Herons 1<br/><img src='../images/DSC_0151.JPG'>"
+excerpt: "A pair of Great Blue Herons <br/><img src='../images/DSC_0151.JPG'>"
 collection: portfolio
 layout: portfolio
 ---
