@@ -11,15 +11,13 @@ Welcome to my personal website!
 
 Test
 ======
-My name is Chengyan, I go by Kurt. I chose this name in highschool because I thought [Kurt Cobain](https://en.wikipedia.org/wiki/Kurt_Cobain) was pretty cool.
-Test: this is my favorite animal [Asiatic Cheetah](https://en.wikipedia.org/wiki/Asiatic_cheetah). I hope to see one some day!
+Hello, my name is Chengyan Ji, I go by Kurt. I chose this name in highschool because I thought [Kurt Cobain](https://en.wikipedia.org/wiki/Kurt_Cobain) was pretty cool. I am originally from Xi'an, China. I am an incoming PhD student in statistical science at George Mason University. I obtained my Bachelor's in the University of Washington, and Master's from University of Illinois and University of Virginia.
 
-For those users that need more advanced functionality, the template also supports the following popular tools:
-- [MathJax](https://www.mathjax.org/) for mathematical equations
-- [Mermaid](https://mermaid.js.org/) for diagraming
-- [Plotly](https://plotly.com/javascript/) for plotting
+In my spare time, I like to play table tennis🏓, basketball🏀 or badminton🏸. I also like hiking🥾⛰️ and wildlife photography📸🦊. This is my favorite animal [Asiatic Cheetah](https://en.wikipedia.org/wiki/Asiatic_cheetah). I hope to see one some day!
 
-Getting started
+You can go to my Gallery page to see my photos!
+
+<!-- Getting started
 ======
 1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
 1. Fork [this template](https://github.com/academicpages/academicpages.github.io) by clicking the "Use this template" button in the top right. 
@@ -38,8 +36,7 @@ For site content, there is one Markdown file for each type of content, which are
 
 **Markdown generator**
 
-The repository includes [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual Markdown files that will be properly formatted for the Academic Pages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the Markdown files, then commit and push them to the GitHub repository.
+test
 
 How to edit your site's GitHub repository
 ------
@@ -50,4 +47,4 @@ Example: editing a Markdown file for a talk
 
 For more info
 ------
-More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/), the [growing wiki](https://github.com/academicpages/academicpages.github.io/wiki), and you can always [ask a question on GitHub](https://github.com/academicpages/academicpages.github.io/discussions). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/), the [growing wiki](https://github.com/academicpages/academicpages.github.io/wiki), and you can always [ask a question on GitHub](https://github.com/academicpages/academicpages.github.io/discussions). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful. -->
