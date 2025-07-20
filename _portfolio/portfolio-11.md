@@ -1,6 +1,6 @@
 ---
-title: "Something"
-excerpt: "Something 1<br/><img src='../images/DSC_3857.JPG'>"
+title: "Pronghorns"
+excerpt: "Pronghorns in Wyoming 1<br/><img src='../images/DSC_3857.JPG'>"
 collection: portfolio
 layout: portfolio
 ---
