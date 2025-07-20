@@ -15,7 +15,7 @@ Hello, my name is Chengyan Ji, I go by Kurt. I chose this name in highschool bec
 
 In my spare time, I like to play table tennis🏓, basketball🏀 or badminton🏸. I also like hiking🥾⛰️ and wildlife photography📸🦊. This is my favorite animal [Asiatic Cheetah](https://en.wikipedia.org/wiki/Asiatic_cheetah). I hope to see one some day!
 
-You can go to my Gallery page to see my photos! [Test](../profile.png)
+You can go to my Gallery page to see my photos! [Test](../images/500x300.png)
 
 <!-- Getting started
 ======
