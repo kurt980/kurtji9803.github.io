@@ -1,6 +1,6 @@
 ---
-title: "Something"
-excerpt: "Something<br/><img src='../images/DSC_1984.JPG'>"
+title: "Swainson's Hawk"
+excerpt: "Slightly smaller than a Red-tailed Hawk but equally ferocious, only found in West North America <br/><img src='../images/DSC_1984.JPG'>"
 collection: portfolio
 layout: portfolio
 ---

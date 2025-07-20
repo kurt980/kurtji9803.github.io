@@ -1,6 +1,6 @@
 ---
-title: "Something"
-excerpt: "Something <br/><img src='../images/DSC_2664.JPG'>"
+title: "A Majestic Heron"
+excerpt: "A lone great blue heron looking for food <br/><img src='../images/DSC_2664.JPG'>"
 collection: portfolio
 layout: portfolio
 ---

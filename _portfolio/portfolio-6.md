@@ -1,6 +1,6 @@
 ---
-title: "Something"
-excerpt: "Something <br/><img src='../images/DSC_2457.JPG'>"
+title: "I think those are Ground Squirrels"
+excerpt: "There are so many rodents in Colorado I can't tell <br/><img src='../images/DSC_2457.JPG'>"
 collection: portfolio
 layout: portfolio
 ---

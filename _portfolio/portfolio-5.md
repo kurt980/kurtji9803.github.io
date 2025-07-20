@@ -1,6 +1,6 @@
 ---
-title: "Something"
-excerpt: "Something <br/><img src='../images/DSC_2431.JPG'>"
+title: "Elks"
+excerpt: "In the Rockys Wapitis are more common than deer! <br/><img src='../images/DSC_2431.JPG'>"
 collection: portfolio
 layout: portfolio
 ---

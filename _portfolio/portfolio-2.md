@@ -1,6 +1,6 @@
 ---
-title: "Something"
-excerpt: "Something <br/><img src='../images/DSC_1178.JPG'>"
+title: "A White-tailed Deed"
+excerpt: "Hope it stays off the highway <br/><img src='../images/DSC_1178.JPG'>"
 collection: portfolio
 layout: portfolio
 ---
