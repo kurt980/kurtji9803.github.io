@@ -1,14 +1,18 @@
 ---
-layout: archive
-title: "Portfolio"
+layout: profile
+title: "Photography"
 permalink: /portfolio/
-author_profile: true
+intro: "Selected wildlife photographs."
+description: "Wildlife photography by Chengyan (Kurt) Ji."
 ---
-
-{% include base_path %}
-
-
-{% for post in site.portfolio %}
-  {% include archive-single.html %}
+<div class="gallery-grid">
+{% for photo in site.data.gallery.photos %}
+  <figure class="gallery-item">
+    <a href="{{ site.baseurl }}/images/{{ photo.file }}.JPG" aria-label="View full photograph: {{ photo.title | escape }}">
+      <img src="{{ site.baseurl }}/images/optimized/{{ photo.file }}.jpg" alt="{{ photo.alt | escape }}" width="960" height="640" loading="lazy" decoding="async">
+    </a>
+    <figcaption>{{ photo.title }}</figcaption>
+  </figure>
 {% endfor %}
-
+</div>
+<p class="gallery-note">Select a photograph to view the full-size original. All photographs © Chengyan (Kurt) Ji.</p>

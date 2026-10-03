@@ -1,0 +1,82 @@
+/* Simple personal academic site. */
+:root {
+  --global-bg-color: #fff;
+  --global-text-color: #282c30;
+  --global-link-color: #285a83;
+  --global-link-color-hover: #173b59;
+  --global-link-color-visited: #285a83;
+  --global-masthead-link-color: #282c30;
+  --global-masthead-link-color-hover: #285a83;
+  --global-border-color: #e1e4e8;
+  --global-footer-bg-color: #f7f8f9;
+  --personal-muted: #626970;
+}
+html[data-theme="dark"] {
+  --global-bg-color: #202428;
+  --global-text-color: #e4e7eb;
+  --global-link-color: #a1c5e5;
+  --global-link-color-hover: #c6ddf0;
+  --global-link-color-visited: #a1c5e5;
+  --global-masthead-link-color: #e4e7eb;
+  --global-masthead-link-color-hover: #a1c5e5;
+  --global-border-color: #42484e;
+  --global-footer-bg-color: #1a1d21;
+  --personal-muted: #b3bac2;
+}
+body { font-family: "Segoe UI", -apple-system, BlinkMacSystemFont, sans-serif; }
+html { scroll-padding-top: 90px; }
+a:focus-visible, button:focus-visible, [role="button"]:focus-visible {
+  outline: 2px solid var(--global-link-color);
+  outline-offset: 4px;
+}
+.skip-link { position: fixed; top: -100px; left: 16px; z-index: 1000; padding: 10px 16px; background: var(--global-bg-color); }
+.skip-link:focus { top: 10px; }
+.masthead { background: var(--global-bg-color); border-bottom: 1px solid var(--global-border-color); }
+.masthead__inner-wrap { max-width: 1020px; padding: 0.8rem 1.5rem; }
+.greedy-nav { background: transparent; }
+.greedy-nav a { font-size: 0.8rem; font-weight: 400; }
+.greedy-nav .masthead__menu-item--lg a { font-size: 0.9rem; font-weight: 600; }
+#main.profile-site { max-width: 960px; margin: 0 auto; padding: 2rem 1.5rem; animation: none; float: none; }
+.profile-site { font-size: 0.85rem; line-height: 1.65; }
+.profile-site h1, .profile-site h2, .profile-site h3 { font-family: inherit; letter-spacing: normal; line-height: 1.4; font-weight: 600; }
+.profile-site h1 { font-size: 1.65rem; margin: 0 0 1rem; }
+.profile-site h2 { font-size: 1.12rem; margin: 0 0 0.7rem; }
+.profile-site h3 { font-size: 0.95rem; margin: 0 0 0.3rem; }
+.profile-site p { margin: 0 0 0.8rem; }
+.profile-site a { text-underline-offset: 3px; }
+.section-heading { margin-bottom: 1.5rem; }
+.home-introduction { display: grid; grid-template-columns: minmax(0,1fr) 160px; gap: 2rem; align-items: start; }
+.profile-photo { display: block; width: 160px; height: auto; border-radius: 2px; margin: 0; }
+.home-section { margin-top: 1.6rem; padding-top: 1.2rem; border-top: 1px solid var(--global-border-color); }
+.plain-section { margin-bottom: 1.8rem; }
+.profile-site .entry-meta { color: var(--personal-muted); font-size: 0.74rem; }
+.experience-row { margin: 1.3rem 0; }
+.profile-site .role-title { margin-bottom: 0.25rem; }
+.education-entry { margin-bottom: 1rem; }
+.publication-entry { margin: 0 0 1.8rem; padding-bottom: 1.2rem; border-bottom: 1px solid var(--global-border-color); }
+.publication-entry h2 { font-size: 0.95rem; }
+.publication-entry p { margin-bottom: 0.4rem; }
+.publication-entry h2 a { color: var(--global-text-color); }
+.gallery-grid { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 1.2rem; }
+.gallery-item { margin: 0; }
+.gallery-item img { display: block; width: 100%; height: auto; aspect-ratio: 1.5; object-fit: cover; }
+.gallery-item figcaption { color: var(--personal-muted); font-size: 0.72rem; padding: 0; margin-top: 0.4rem; }
+.profile-site .gallery-note { color: var(--personal-muted); font-size: 0.72rem; margin-top: 1.5rem; }
+.page__footer { margin-top: 1rem; }
+.page__footer footer { max-width: 960px; padding: 1rem 1.5rem; }
+.page__footer-copyright { color: var(--personal-muted); font-size: 0.64rem; }
+@media (max-width: 700px) {
+  #main.profile-site { padding: 1.4rem 1rem; }
+  .masthead__inner-wrap { padding-inline: 1rem; }
+  .home-introduction { grid-template-columns: minmax(0,1fr) 110px; gap: 1rem; }
+  .profile-photo { width: 110px; }
+  .gallery-grid { grid-template-columns: repeat(2,minmax(0,1fr)); }
+}
+@media (max-width: 450px) {
+  .home-introduction { grid-template-columns: 1fr; }
+  .profile-photo { grid-row: 1; }
+  .gallery-grid { grid-template-columns: 1fr; }
+}
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+}

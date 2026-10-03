@@ -12,7 +12,7 @@ site_theme               : "default"
 title                    : "Chengyan Ji (Kurt)"
 title_separator          : "-"
 name                     : &name "Chengyan (Kurt) Ji"
-description              : &description "Welcome"
+description              : &description "Statistics PhD student at George Mason University. Bayesian spatial extremes, uncertainty quantification, and data science."
 url                      : https://kurt980.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io" or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "/kurtji9803.github.io" # the subpath of your site, e.g. "/blog"
 repository               : "kurt980/kurtji9803.github.io"
@@ -22,10 +22,10 @@ repository               : "kurt980/kurtji9803.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "optimized/portrait.jpg"
   name             : "Chengyan (Kurt) Ji"
   pronouns         : # example: "she/her"  
-  bio              : "Nothing to see here"
+  bio              : "Statistics PhD student exploring Bayesian spatial extremes and uncertainty."
   location         : "Fairfax, VA, USA"
   employer         : "George Mason University"
   uri              : # URL
@@ -90,7 +90,7 @@ publication_category:
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
-future                   : true
+future                   : false
 read_more                : "disabled" # if enabled, adds "Read more" links to excerpts
 talkmap_link             : false      #change to true to add link to talkmap on talks page
 comments:
@@ -120,7 +120,7 @@ staticman:
       options:
         format           : "iso8601" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
 atom_feed:
-  hide                   : false     # change to true to hide the RSS feed in the footer
+  hide                   : true      # Blog is not part of the current site.
   path                   : # blank (default) uses feed.xml
 
 
@@ -182,6 +182,34 @@ exclude:
   - local
   - log
   - node_modules
+  - .pnpm-store
+  - pnpm-lock.yaml
+  - scripts
+  - .preview
+  - .vs
+  - CODE_REVIEW.md
+  - CONTENT_SOURCES.md
+  - CONTRIBUTING.md
+  - README.md
+  - markdown_generator
+  - talkmap
+  - talkmap.py
+  - talkmap.ipynb
+  - talkmap_out.ipynb
+  - docker-compose.yaml
+  - profile.HEIC
+  - profile.png
+  - _posts
+  - _talks
+  - _teaching
+  - _portfolio/portfolio-16.md
+  - _portfolio/portfolio-2.html
+  - _portfolio/profile.png
+  - _publications/2009-10-01-paper-title-number-1.md
+  - _publications/2010-10-01-paper-title-number-2.md
+  - _publications/2015-10-01-paper-title-number-3.md
+  - _publications/2024-02-17-paper-title-number-4.md
+  - _publications/2025-06-08-paper-title-number-5.md
   - package.json*
   - Rakefile
   - README

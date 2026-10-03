@@ -47,9 +47,11 @@
         {% endif %}
 
     {% if post.excerpt and site.read_more != 'enabled' %}
-    <p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p>
+    {% assign image_path = base_path | append: '/images/' %}
+    <div class="archive__item-excerpt" itemprop="description">{{ post.excerpt | replace: '../images/', image_path | markdownify }}</div>
     {% elsif post.excerpt and site.read_more == 'enabled' %}
-    <p class="archive__item-excerpt" itemprop="description"><p>{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}<strong><a href="{{ base_path }}{{ post.url }}" rel="permalink"> Read more</a></strong></p></p>
+    {% assign image_path = base_path | append: '/images/' %}
+    <div class="archive__item-excerpt" itemprop="description">{{ post.excerpt | replace: '../images/', image_path | markdownify }}<strong><a href="{{ base_path }}{{ post.url }}" rel="permalink"> Read more</a></strong></div>
     {% endif %}
     
     {% if post.citation and post.paperurl and post.slidesurl and post.bibtexurl %}

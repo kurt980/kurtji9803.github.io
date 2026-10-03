@@ -1,11 +1,12 @@
 ---
-title: "A Red Stupid Bird"
-excerpt: "I hit one on the highway once gladly it wasn't hurt so bad <br/><img src='../images/DSC_2029.JPG'>"
+title: "A flash of red"
+excerpt: "A red bird photographed outdoors"
 collection: portfolio
-layout: portfolio
+layout: profile
+share: false
+comments: false
 ---
 
-This photo was taken during a snowy morning hike in Yellowstone National Park. I used a Nikon D7500 with a 200–500mm f/5.6 lens.  
-One of my favorite wildlife captures!
+<img src="{{ site.baseurl }}/images/optimized/DSC_2029.jpg" alt="A red bird photographed outdoors" loading="lazy">
 
-<img src='{{ site.baseurl }}/images/DSC_2029.JPG'>
+[View full-size photograph]({{ site.baseurl }}/images/DSC_2029.JPG) · [Back to photography]({{ site.baseurl }}/portfolio/)

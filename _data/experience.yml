@@ -1,0 +1,44 @@
+roles:
+  - organization: George Mason University
+    title: Research Assistant — Bayesian Spatial Extremes
+    dates: February 2026–present
+    location: Fairfax, Virginia
+    description: "Developing and evaluating Bayesian inference workflows for rare-event models with spatial dependence. My work spans simulation design, uncertainty calibration, model diagnostics, numerical investigation, and reproducible R/Slurm analysis."
+    tools: "R · Bayesian inference · MCMC · Monte Carlo simulation · Slurm/HPC"
+  - organization: University of Virginia
+    title: Research Assistant — Neuroimaging & Statistical Genetics
+    dates: January 2024–August 2025
+    location: Charlottesville, Virginia
+    description: "Built Python/R processing and quality-control workflows for neuroimaging, genetic, and behavioral data. Applied mixed models and instrumental-variable methods to investigate brain connectivity and ADHD, with sensitivity analyses and careful interpretation of causal assumptions."
+    tools: "Python · R · Mendelian randomization · PLINK · GCTA"
+  - organization: University of Illinois Urbana-Champaign
+    title: Research Assistant — Environmental Statistics & Forecasting
+    dates: June 2023–August 2024
+    location: Champaign, Illinois
+    description: "Contributed to drought forecasting with autoregressive, SVM, and LSTM models. Evaluated climate and lag features through chronological rolling windows and supported a leakage-aware multiscale wavelet framework."
+    tools: "R · Time series · Wavelets · Forecast evaluation"
+  - organization: University of Virginia
+    title: Research Assistant — Medical Image Registration
+    dates: January–June 2024
+    location: Charlottesville, Virginia
+    description: "Built and benchmarked a complex-valued neural-network prototype for image registration, using Fourier-domain representations. Implemented custom PyTorch layers and loss functions and reproduced baseline architectures."
+    tools: "Python · PyTorch · CNNs · FFT/IFFT"
+  - organization: Meta
+    title: Data Scientist Intern
+    dates: May–August 2022
+    location: Seattle, Washington
+    description: "Led SQL extraction and Python analysis for an open-ended investigation of younger-user video engagement. Turned cohort patterns into intervention hypotheses, designed and analyzed two controlled recommendation tests, and presented findings and limitations to product and engineering teams."
+    tools: "SQL · Python · Product analytics · Controlled experiments"
+education:
+  - institution: George Mason University
+    degree: PhD in Statistics
+    dates: 2025–present · Expected May 2029
+  - institution: University of Virginia
+    degree: Master of Computer Science
+    dates: 2023–2024
+  - institution: University of Illinois Urbana-Champaign
+    degree: MS in Statistics
+    dates: 2021–2023
+  - institution: University of Washington
+    degree: BS in Mathematics and Economics
+    dates: 2016–2020

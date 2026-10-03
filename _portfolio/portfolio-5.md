@@ -1,11 +1,12 @@
 ---
-title: "Elks"
-excerpt: "In the Rockys Wapitis are more common than deer! <br/><img src='../images/DSC_2431.JPG'>"
+title: "Elk"
+excerpt: "Elk photographed in their natural surroundings"
 collection: portfolio
-layout: portfolio
+layout: profile
+share: false
+comments: false
 ---
 
-This photo was taken during a snowy morning hike in Yellowstone National Park. I used a Nikon D7500 with a 200–500mm f/5.6 lens.  
-One of my favorite wildlife captures!
+<img src="{{ site.baseurl }}/images/optimized/DSC_2431.jpg" alt="Elk photographed in their natural surroundings" loading="lazy">
 
-<img src='{{ site.baseurl }}/images/DSC_2431.JPG'>
+[View full-size photograph]({{ site.baseurl }}/images/DSC_2431.JPG) · [Back to photography]({{ site.baseurl }}/portfolio/)

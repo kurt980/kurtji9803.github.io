@@ -1,11 +1,12 @@
 ---
-title: "Bison Cow and Calf"
-excerpt: "Bisons in Utah <br/><img src='../images/DSC_3857.JPG'>"
+title: "Bison cow and calf"
+excerpt: "An adult bison and a calf together"
 collection: portfolio
-layout: portfolio
+layout: profile
+share: false
+comments: false
 ---
 
-This photo was taken during a snowy morning hike in Yellowstone National Park. I used a Nikon D7500 with a 200–500mm f/5.6 lens.  
-One of my favorite wildlife captures!
+<img src="{{ site.baseurl }}/images/optimized/DSC_3857.jpg" alt="An adult bison and a calf together" loading="lazy">
 
-<img src='{{ site.baseurl }}/images/DSC_3857.JPG'>
+[View full-size photograph]({{ site.baseurl }}/images/DSC_3857.JPG) · [Back to photography]({{ site.baseurl }}/portfolio/)

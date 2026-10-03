@@ -30,11 +30,16 @@
   },
   "devDependencies": {
     "onchange": "^7.1.0",
-    "uglify-js": "^3.17.4"
+    "uglify-js": "^3.17.4",
+    "liquidjs": "^10.21.0",
+    "marked": "^15.0.0",
+    "yaml": "^2.6.0",
+    "sass": "1.77.8"
   },
   "scripts": {
     "uglify": "uglifyjs node_modules/jquery/dist/jquery.min.js node_modules/fitvids/dist/fitvids.min.js node_modules/jquery-smooth-scroll/jquery.smooth-scroll.min.js assets/js/plugins/jquery.greedy-navigation.js assets/js/_main.js -c -m -o assets/js/main.min.js",
     "watch:js": "onchange \"assets/js/**/*.js\" -e \"assets/js/main.min.js\" -- npm run build:js",
-    "build:js": "npm run uglify"
+    "build:js": "npm run uglify",
+    "preview": "node scripts/preview.cjs"
   }
 }

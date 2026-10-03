@@ -1,8 +1,12 @@
 ---
-title: "A Laughing Fox"
-excerpt: "Lighting was so bad but I somehow captured this red fox having a good laugh <br/><img src='../images/DSC_4137.JPG'>"
+title: "A laughing fox"
+excerpt: "A red fox with its mouth open in the grass"
 collection: portfolio
-layout: portfolio
+layout: profile
+share: false
+comments: false
 ---
 
-<img src='{{ site.baseurl }}/images/DSC_4137.JPG'>
+<img src="{{ site.baseurl }}/images/optimized/DSC_4137.jpg" alt="A red fox with its mouth open in the grass" loading="lazy">
+
+[View full-size photograph]({{ site.baseurl }}/images/DSC_4137.JPG) · [Back to photography]({{ site.baseurl }}/portfolio/)

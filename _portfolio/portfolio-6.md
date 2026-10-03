@@ -1,11 +1,12 @@
 ---
-title: "I think those are Ground Squirrels"
-excerpt: "There are so many rodents in Colorado I can't tell <br/><img src='../images/DSC_2457.JPG'>"
+title: "Small neighbors"
+excerpt: "Small rodents photographed on a hike"
 collection: portfolio
-layout: portfolio
+layout: profile
+share: false
+comments: false
 ---
 
-This photo was taken during a snowy morning hike in Yellowstone National Park. I used a Nikon D7500 with a 200–500mm f/5.6 lens.  
-One of my favorite wildlife captures!
+<img src="{{ site.baseurl }}/images/optimized/DSC_2457.jpg" alt="Small rodents photographed on a hike" loading="lazy">
 
-<img src='{{ site.baseurl }}/images/DSC_2457.JPG'>
+[View full-size photograph]({{ site.baseurl }}/images/DSC_2457.JPG) · [Back to photography]({{ site.baseurl }}/portfolio/)

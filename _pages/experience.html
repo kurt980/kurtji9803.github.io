@@ -1,0 +1,24 @@
+---
+layout: profile
+title: "Experience & education"
+permalink: /experience/
+---
+<section><h2>Research &amp; industry</h2>
+{% for role in site.data.experience.roles %}
+  <article class="experience-row">
+    <h3>{{ role.organization }}</h3>
+    <p class="role-title">{{ role.title }}</p>
+    <p class="entry-meta">{{ role.dates }} · {{ role.location }}</p>
+    <p>{{ role.description }}</p>
+  </article>
+{% endfor %}
+</section>
+<section class="home-section"><h2>Education</h2>
+{% for degree in site.data.experience.education %}
+  <article class="education-entry">
+    <h3>{{ degree.institution }}</h3>
+    <p>{{ degree.degree }} · {{ degree.dates }}</p>
+  </article>
+{% endfor %}
+</section>
+<section class="home-section"><h2>Tools</h2><p>R, Python, SQL, PyTorch, Git, and Slurm/HPC.</p></section>
